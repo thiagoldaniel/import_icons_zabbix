@@ -11,10 +11,12 @@ pip install zabbix-api
 Antes: gere um API token em Administração → Tokens de API e copie.
 
 Ajuste a variavel API_TOKEN com o Token Criado.
-API_TOKEN = "aaaaabbbbbcccccddddd"     # Gere no frontend
+
+    API_TOKEN = "aaaaabbbbbcccccddddd"     # Gere no frontend
 
 Defina o diretorio onde estarão armazenados os icones em formato png.Podem ser inclusive colocados em subpastas.
-ICON_DIR  = r"/tool/icones"                  # Pasta raiz
+
+    ICON_DIR  = r"/tool/icones"                  # Pasta raiz
 
 
 # Procedimento de Execução
